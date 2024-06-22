@@ -1,0 +1,138 @@
+
+/* Basic reset and styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/proj.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Times New Roman', sans-serif;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #fff; /* Default text color for the body */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  font-size: 30px;
+  color: #ff91a4;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hidden {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles for menu */
+.menu {
+  padding: 40px 0; /* Adds 40px of padding above and below the menu section */
+}
+
+.menu-category {
+  margin-bottom: 40px; /* Adds 40px of margin below each menu category */
+}
+
+.menu-item {
+  margin-bottom: 20px; /* Adds 20px of margin below each menu item */
+}
+
+.menu-item img {
+  max-width: 100%; /* Ensures images within menu items don't exceed their container */
+}
+
+.menu-item p {
+  color: #fff; /* Sets the text color for menu item descriptions */
+}
+
+/* Add styles for the shopping cart with a black color scheme */
+.shopping-cart {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+}
+
+.shopping-cart h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.shopping-cart p {
+  font-weight: bold;
+  color: #fff;
+}
+
+#place-order {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#place-order:hover {
+  background-color: #555;
+}
